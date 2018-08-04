@@ -35,7 +35,7 @@ function displayCurrencyResult(result){
      d.innerHTML=ratediv;
      //iterate in the array  
 	 for (i in result.rates){
-   ratediv +='<div class="jumbotron" style="text-align:center" ><h1> ' + i + '  </h1> style="color:blue"> '+result.bpi[i].rate+'</div>';
+   ratediv +='<div class="jumbotron" style="text-align:center" style="color:blue" > <h1> ' base + ' </h1>  > '+result.bpi[base].rate+'</div>';
  }
 	           
 	  $('#rates').append(ratediv);
